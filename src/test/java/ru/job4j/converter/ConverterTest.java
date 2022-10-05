@@ -31,4 +31,13 @@ public class ConverterTest {
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
+
+    @Test
+    public void whenConvert0RblThen0Dlr() {
+        float in = 0;
+        float expected = 0f;
+        float out = Converter.rubleToDollar(in);
+        float eps = 0.0001f;
+        Assert.assertEquals(expected, out, eps);
+    }
 }

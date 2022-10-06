@@ -1,7 +1,9 @@
 package ru.job4j.type;
 
 import java.util.Scanner;
-
+/*
+Даны два действительных числа a и b. Вычислить их сумму, разность, произведение и частное.
+ */
 public class Task9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

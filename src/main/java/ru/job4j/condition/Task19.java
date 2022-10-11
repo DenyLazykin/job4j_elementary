@@ -1,0 +1,19 @@
+package ru.job4j.condition;
+
+public class Task19 {
+    public static void sumOrMultiply(int number1, int number2) {
+        if (number1 > number2) {
+            System.out.println(number1 + number2);
+        } else if (number1 < number2) {
+            System.out.println(number1 * number2);
+        } else {
+            System.out.println("Числа равны");
+        }
+    }
+
+    public static void main(String[] args) {
+        sumOrMultiply(21, 20);
+        sumOrMultiply(20, 21);
+        sumOrMultiply(5, 5);
+    }
+}

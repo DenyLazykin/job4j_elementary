@@ -27,4 +27,12 @@ public class TurnTest {
         int[] expected = new int[] {3, 2, 1};
         assertThat(result).containsExactly(expected);
     }
+
+    @Test
+    public void when2elems() {
+        int[] input = new int[] {1, 2};
+        int[] result = Turn.back(input);
+        int[] expected = new int[] {2, 1};
+        assertThat(result).containsExactly(expected);
+    }
 }

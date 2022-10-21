@@ -8,5 +8,11 @@ public class ReverseLoopForArray {
             int el = numbers[numbers.length - i - 1];
             System.out.println(el);
         }
+        /*
+        Ниже применент обратный проход в цикле, так тоже можно
+         */
+         // for (int i = numbers.length - 1; i >=0 ; i--) {
+         //   int el = numbers[i];
+         //   System.out.println(el);
     }
 }

@@ -28,4 +28,15 @@ public class MatrixCheck {
         }
         return result;
     }
+
+    /*
+    Метод заполняет одномерный массив элементами диагонали двухмерного массива
+     */
+    public static char[] extractDiagonal(char[][] board) {
+        char[] rsl = new char[board.length];
+        for (int i = 0; i < board.length; i++) {
+            rsl[i] = board[i][i];
+        }
+        return rsl;
+    }
 }

@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 public class JavaNameValidator {
+    /* Метод проверяет валидность имен */
     public static boolean isNameValid(String name) {
         boolean result = false;
         if (!name.isEmpty() && isLowerLatinLetter(name.charAt(0))) {

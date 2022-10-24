@@ -3,9 +3,7 @@ package ru.job4j.array;
 import java.util.Arrays;
 
 public class SkipNegative {
-    /*
-    Метод заменяет отрицательные значения в массиве на 0
-     */
+    /* Метод заменяет отрицательные значения в массиве на 0 */
     public static int[][] skip(int[][] array) {
         for (int row = 0; row < array.length; row++) {
             for (int cell = 0; cell < array[row].length; cell++) {

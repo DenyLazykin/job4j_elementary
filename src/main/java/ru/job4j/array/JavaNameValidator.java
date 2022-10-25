@@ -1,16 +1,21 @@
 package ru.job4j.array;
 
+import static java.lang.Character.isDigit;
+import static java.lang.Character.isLowerCase;
+
 public class JavaNameValidator {
-    /* Метод проверяет валидность имен */
     public static boolean isNameValid(String name) {
-        boolean result = false;
-        if (!name.isEmpty() && isLowerLatinLetter(name.charAt(0))) {
+        boolean result = !name.isEmpty()
+                && isLowerCase(name.codePointAt(0));
+        if (result) {
             for (int i = 1; i < name.length(); i++) {
-                if (Character.isDigit(name.charAt(i))
-                        || isSpecialSymbol(name.charAt(i))
-                        || isUpperLatinLetter(name.charAt(i))
-                        || isLowerLatinLetter(name.charAt(i))) {
-                    result = true;
+                int noValid = name.codePointAt(i);
+                if (!isSpecialSymbol(noValid)
+                        && !isUpperLatinLetter(noValid)
+                        && !isLowerLatinLetter(noValid)
+                        && !isDigit(noValid)) {
+                    result = false;
+                    break;
                 }
             }
         }

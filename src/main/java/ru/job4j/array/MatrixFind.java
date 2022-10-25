@@ -1,8 +1,10 @@
 package ru.job4j.array;
 
 public class MatrixFind {
-    /*
-    Метод выводит на консоль индексы искового элемента
+    /**
+     * Метод выводит на консоль индексы искового элемента
+     * @param array массив чисел
+     * @param el элемент, который нужно найти
      */
     public static void find(int[][] array, int el) {
         System.out.println("Find el : " + el);

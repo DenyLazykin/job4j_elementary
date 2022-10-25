@@ -1,8 +1,11 @@
 package ru.job4j.array;
 
 public class EndsWith {
-    /*
-    Метод проверяет, что слово заканчивается с определенной последовательности
+     /**
+     * Метод проверяет, что слово заканчивается на определенную последовательность
+     * @param word слово
+     * @param post последовательность
+     * @return true, если последовательность верная. Если нет - false
      */
     public static boolean endsWith(char[] word, char[] post) {
         boolean result = true;

@@ -4,7 +4,6 @@ public class Task31 {
     public static void difference(int number) {
         int num1, num2, num3;
         int temp = number / 10;
-
         num1 = temp / 10;
         num2 = temp % 10;
         num3 = number % 10;

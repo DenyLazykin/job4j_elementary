@@ -1,13 +1,14 @@
 package ru.job4j.array;
 
 public class Defragment {
-    /*
-    Метод перемещает заполненные ячейки массива в начало, а пусты в конец
+    /**
+     * Метод перемещает заполненные ячейки массива в начало, а пусты в конец
+     * @param array массив с данными
+     * @return массив с отсортированнными данными
      */
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
-                /* переместить первую не null ячейку. Нужен цикл. */
                 for (int i = index + 1; i < array.length; i++) {
                     if (array[i] != null) {
                         array[index] = array[i];

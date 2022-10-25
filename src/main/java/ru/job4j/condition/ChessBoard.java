@@ -1,6 +1,14 @@
 package ru.job4j.condition;
 
 public class ChessBoard {
+    /**
+     * Метод проверяет - может ли ладья совершить ход
+     * @param x1 координаты
+     * @param y1 координаты
+     * @param x2 координаты
+     * @param y2 координаты
+     * @return 1 если может
+     */
     public static int way(int x1, int y1, int x2, int y2) {
         int rsl = 0;
         if (isValid(x1) && isValid(x2)

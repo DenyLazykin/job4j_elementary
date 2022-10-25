@@ -1,8 +1,10 @@
 package ru.job4j.array;
 
 public class RollBackArray {
-    /*
-    Метод записывает элементы в обратном порядке в новый массив
+    /**
+     * Метод записывает элементы в обратном порядке в новый массив
+     * @param array массив чисел
+     * @return отсортированный массив в обратном порядке
      */
     public static int[] rollback(int[] array) {
         int[] result = new int[array.length];

@@ -3,8 +3,11 @@ package ru.job4j.array;
 import java.util.Arrays;
 
 public class Machine {
-    /*
-    Метод реализует механизм возврата монет в вендинговых аппаратах (жадный алгоритм)
+    /**
+     * Метод реализует механизм возврата монет в вендинговых аппаратах (жадный алгоритм)
+     * @param money количество внесенных денег
+     * @param price цена наименования в аппарате
+     * @return массив-копию новой длины
      */
     public static int[] change(int money, int price) {
         int[] coins = {10, 5, 2, 1};

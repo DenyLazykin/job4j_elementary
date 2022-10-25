@@ -3,9 +3,11 @@ package ru.job4j.array;
 import java.util.Arrays;
 
 public class SortSelected {
-    /*
-    Метод сортирует массив выборкой.
-    Смысл метода в поиске минимального элемента из осавшихся
+    /**
+     * Метод сортирует массив выборкой
+     * Смысл метода в поиске минимального элемента из осавшихся
+     * @param data массви чисел
+     * @return отсортированный по возрастанию массив
      */
     public static int[] sort(int[] data) {
         for (int i = 0; i < data.length; i++) {

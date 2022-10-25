@@ -5,12 +5,10 @@ public class Task34 {
         int num1, num2, num3, num4, counter = 0;
         int temp = number / 10;
         int temp2 = temp / 10;
-
         num1 = temp2 / 10;
         num2 = temp2 % 10;
         num3 = temp % 10;
         num4 = number % 10;
-
         if (num1 % 2 == 0) {
             counter++;
         }

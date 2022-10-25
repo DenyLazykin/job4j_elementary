@@ -7,7 +7,6 @@ public class Task26 {
         num2 = number % 10;
         int rsl = Integer.parseInt(num2 + "" + num1);
         System.out.println(rsl + 8);
-
     }
 
     public static void main(String[] args) {

@@ -1,8 +1,12 @@
 package ru.job4j.array;
 
 public class SwitchArray {
-    /*
-    Метод меняет местами указаные нами (source и dest) элементы в массиве
+    /**
+     * Метод меняет местами указаные нами (source и dest) элементы в массиве
+     * @param array массив с числами
+     * @param source первый элемент который меняем
+     * @param dest второй элемент который меняем
+     * @return отсортированный массив
      */
     public static int[] swap(int[] array, int source, int dest) {
         int temp = array[source];
@@ -11,8 +15,10 @@ public class SwitchArray {
         return array;
     }
 
-    /*
-    Метод меняет местами нулевой и последний элементы в массиве
+    /**
+     * Метод меняет местами нулевой и последний элементы в массиве
+     * @param array массив с числами
+     * @return отсортированный массив
      */
     public static int[] swapBorder(int[] array) {
         int temp = array[0];

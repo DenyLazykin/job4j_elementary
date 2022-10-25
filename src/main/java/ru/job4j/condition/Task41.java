@@ -5,11 +5,9 @@ public class Task41 {
         int num1, num2, num3;
         int temporary = number / 10;
         int counter = 0;
-
         num1 = temporary / 10;
         num2 = temporary % 10;
         num3 = number % 10;
-
         if (num1 % 2 == 0) {
             counter++;
         }

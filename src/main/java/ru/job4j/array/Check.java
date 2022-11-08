@@ -3,6 +3,7 @@ package ru.job4j.array;
 public class Check {
     /**
      * Метод проверяет, что все элементы либо true либо false
+     *
      * @param data массив с данными
      * @return true, если элементы массива одинаковые, false - если нет
      */

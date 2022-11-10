@@ -11,8 +11,8 @@ public class FourDigitNumber {
         int tens = i % 1000 % 100 / 10;
         int single = i % 1000 % 100 % 10;
         System.out.println("thousands: " + thousands
-        + ", hundreds : " + hundreds
-        + ", tens: " + tens
-        + ", single: " + single);
+                + ", hundreds : " + hundreds
+                + ", tens: " + tens
+                + ", single: " + single);
     }
 }

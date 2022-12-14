@@ -15,9 +15,9 @@ public class Task18 {
         double squarePerimeter = a * 4;
         String resultSquarePerimeter = String.format("%.1f", squarePerimeter);
         double circleLength = 2 * Math.PI * r;
-        String resultCircleLength = String.format("%.1f", squarePerimeter);
+        String resultCircleLength = String.format("%.1f", circleLength);
         double circleArea = Math.PI * Math.pow(r, 2);
-        String resultCircleArea = String.format("%.1f", squarePerimeter);
+        String resultCircleArea = String.format("%.1f", circleArea);
         System.out.println(resultSquarePerimeter);
         System.out.println(resultCircleLength);
         System.out.println(resultCircleArea);

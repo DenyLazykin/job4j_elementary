@@ -1,4 +1,4 @@
-package ru.job4j.oop.exercises.task1;
+package ru.job4j.oop;
 
 import org.hamcrest.MatcherAssert;
 import org.junit.Test;

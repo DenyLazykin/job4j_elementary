@@ -1,4 +1,4 @@
-package ru.job4j.oop.exercises.task1;
+package ru.job4j.oop;
 
 /**
  * В этом упражнении необходимо создать объект класса Tea в методе main класса Task1.

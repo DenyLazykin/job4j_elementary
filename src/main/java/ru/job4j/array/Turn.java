@@ -3,6 +3,7 @@ package ru.job4j.array;
 public class Turn {
     /**
      * Метод переворачивает элементы массива в обратном порядке
+     *
      * @param array массив чисел
      * @return отсортированный массив
      */

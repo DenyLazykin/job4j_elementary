@@ -1,4 +1,4 @@
-package ru.job4j.oop.outerclass.localandanonimousclass;
+package ru.job4j.oop.outerclass.localclass;
 
 public class Local {
     private String name = "Den";

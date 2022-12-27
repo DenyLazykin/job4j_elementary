@@ -1,4 +1,4 @@
-package ru.job4j.oop.sport;
+package ru.job4j.oop.abstractclass.sport;
 
 public abstract class Sportsman {
     int runSpeed;

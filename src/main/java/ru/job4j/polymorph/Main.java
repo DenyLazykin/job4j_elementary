@@ -8,6 +8,7 @@ public class Main {
         townCar.steer();
         townCar.brake();
         townCar.refill();
+        townCar.chargeBattery();
         System.out.println();
         Vehicle sportCar = new SportCar();
         sportCar.changeGear();
@@ -16,5 +17,6 @@ public class Main {
         sportCar.brake();
         sportCar.refill();
         Vehicle.getDragCoefficient();
+        sportCar.chargeBattery();
     }
 }

@@ -11,8 +11,8 @@ public class ArrayDefinition {
         names[1] = "Настя";
         names[2] = "Тема";
         names[3] = "Даник";
-        for (int index = 0; index < names.length; index++) {
-            System.out.println(names[index]);
+        for (String name : names) {
+            System.out.println(name);
         }
         float[] prices = new float[40];
         System.out.println("Размер массива prices равен: " + prices.length);
